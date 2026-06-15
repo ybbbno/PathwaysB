@@ -1,0 +1,11 @@
+{
+  "distance": 3.0,
+  "timeUpdate": 20,
+  "chance": 30,
+
+  "materials": {
+    "GRASS_BLOCK": ["DIRT", "DIRT_PATH"],
+    "DIRT_PATH": ["DIRT"],
+    "DIRT": ["COARSE_DIRT"]
+  }
+}

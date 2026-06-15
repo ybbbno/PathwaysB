@@ -1,0 +1,4 @@
+permissions:
+  pathwaysb.reload:
+    description: Allows /pathwaysb reload
+    default: op

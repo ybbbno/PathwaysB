@@ -1,0 +1,5 @@
+name: PathwaysB
+version: '0.1'
+main: me.ybbbno.pathwaysb.PathwaysB
+api-version: '1.21'
+authors: [ DELEPORT, ybbbno ]
