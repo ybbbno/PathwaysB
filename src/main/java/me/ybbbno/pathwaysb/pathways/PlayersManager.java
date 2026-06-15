@@ -63,6 +63,8 @@ public class PlayersManager extends BasicManagerHandler {
             Block block = playerLocation.getBlock();
 
             List<Material> materials = config.materials().getToMaterials(block.getType());
+            if (materials.isEmpty()) return;
+
             Material next = materials.get(random.nextInt(0, materials.size()));
 
             if (next == null || random.nextInt(100) > config.chance()) return;

@@ -1,4 +1,4 @@
-# distance between each try to replace blocks material
+# distance between each try to replace block material
 "distance": 3.0
 # time in ticks when plugin checks
 "timeUpdate": 20

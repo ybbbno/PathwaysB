@@ -11,6 +11,7 @@ public final class PathwaysB extends PluginProvider {
     public void onEnable() {
         saveDefaultConfig();
 
+        manager = new PlayersManager(this);
         manager.init();
 
         registerCommand("pathwaysb", new PathwaysBCommand(this));
