@@ -9,7 +9,7 @@ import java.util.*;
 
 public class PathwaysConfigManager extends BasicConfigHandler {
     public PathwaysConfigManager(PluginProvider plugin) {
-        super(plugin, "config.json");
+        super(plugin, "config.yml");
     }
 
     public PathwaysConfig getConfig() {
